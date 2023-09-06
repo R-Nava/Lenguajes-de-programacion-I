@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main (){
+	
+	char nombre[30];
+	int edad, i, j, A, k;
+	float salario, acum=0, salmax;
+	//pago por quincena
+	//Aumento de 5 % por año
+	i=0;
+	j=1;
+	k=1;
+	A=65-edad;
+	
+	printf ("Introduce el nombre: \n");
+	gets (nombre);
+	
+	do{
+		
+		printf ("Introduce la edad: \n");
+		scanf ("%d", &edad);
+		
+	}while (edad<18 || edad>65);
+	
+	printf ("Introduce el salario inicial: \n");
+	scanf ("%f", &salario);
+	
+	salario=salario*24;
+	acum=salario;
+	do{
+		
+		printf ("%f \n",acum);	
+		acum=acum+(salario*1.05);
+		salario=salario*1.05;
+		k++;
+		
+	}while (k<=A);
+	
+	salmax=salario;
+	
+	printf ("Hola %s , tienes %d años, tu salario anual a esta edad es %f pesos. \n", nombre, edad, acum);
+	printf ("A los 65 años vas a ganar %f y habrás recibido %f totales en toda tu vida laboral.", salmax, acum);
+	
+	return 0;
+}
