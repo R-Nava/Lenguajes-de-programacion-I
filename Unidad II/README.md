@@ -29,3 +29,5 @@ Aplicación de conceptos: En este código se aplican muchos de los conceptos vis
 - La sexta opción simula una máquina expendedora de una manera MUY simple, simplemente ingresas un costo y el pago en la computadora. Al hacer esto se calcula el cambio tomando en cuenta la denominación de los billetes y monedas existentes en la moneda mexicana.
 - La séptima opción identifica si un año dado es bisiesto o no y, verifica que el número de día y mes correspondan entre sí para que algunos meses no tengan más de 30 días, otros que no tengan más de 31 y otros que no tengan más de 28 o 29 (Febrero).
 - Las últimas dos opciones simplemente con cosas agregadas para facilitar el debut del código.
+
+Examen 1: Primer parcial de lenguajes de programación I. Este código tiene tres opciones. La primera toma un numero cualquiera y dice si es o no un numero perfecto. La segunda opción es un ejemplo de como podemos utilizar un switch con un fragmento comentado mostrando como sería utilizando if La tercera opcion permite salir del codigo unicamente si ingresas la contraseña correcta
