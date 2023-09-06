@@ -1,0 +1,100 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	char opc;
+	int salir=0, num2, i, suma=0;
+	float num, test, contra;
+	int n;
+	do{
+		fflush (stdin);
+		printf ("\n");
+		printf ("==============\n");
+		printf ("MENU \n");
+		printf ("a) Numero perfecto \n");
+		printf ("b) Switch \n");
+		printf ("c) Salir \n");
+		printf ("==============\n");
+		printf ("\n");
+		printf ("Ingresa una opcion: \n");
+		scanf ("%c", &opc);
+		switch (opc){
+			case 'a': case 'A':
+				do{ //validacion de entero
+					printf ("Ingresa un numero: \n");
+					scanf ("%f", &num);
+					test = trunc (num);
+					if ((num-test) != 0){
+						printf ("Este numero debe ser entero \n");
+					}else{
+						num2=num;	
+					}
+				}while((num-test) != 0); //validacion de entero
+				for (i=1;i<num2;i++){
+					if (num2 % i == 0){
+						suma=suma+i;	
+					}	
+				}
+				if (suma == num2){
+					printf ("Es un numero perfecto \n");
+				}else{
+					printf ("No un numero perfecto \n");	
+				}
+				suma = 0;
+				break;
+			case 'b': case 'B':
+				printf ("Escribe un numero \n");
+				scanf ("%d", &n);
+				/*if ((n==5)||(n==6)){
+					n=n+4;
+				}else{
+					if ((n>7)&&(n<=10)){
+						n=n-5;
+					}else{
+						if (n==7){
+							n=n+1;
+						}else{
+							n=n-1;	
+						}
+					}
+				}*/
+				switch (n){
+					case 5: case 6:
+						n=n+4;
+						break;
+					case 8: case 9: case 10:
+						n=n-5;
+						break;
+					case 7:
+						n=n+1;
+						break;
+					default:
+						n=n-1;
+				}
+				printf ("Numero: %d", n);
+				printf ("\n\n");
+				break;
+			case 'c': case 'C':
+				do{ //validacion de entero
+					printf ("Ingresa tu contraseña: \n");
+					scanf ("%f", &num);
+					test = trunc (num);
+					if ((num-test) != 0){
+						printf ("Esta no es una contraseña valida \n");
+					}else{
+						contra=num;
+					}
+				}while((num-test) != 0); //validacion de entero
+				if (contra == 338746){
+					printf ("La contraseña es correcta \n");
+					salir=1;
+				}else{
+					printf ("La contraseña es incorrecta \n");
+				}
+				break;
+			default:
+				printf ("Esta no es una opcion valida \n");
+				break;
+		}
+	}while (salir!=1);
+	return 0;
+}
