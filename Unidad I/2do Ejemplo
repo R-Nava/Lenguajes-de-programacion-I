@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main (){
+	
+	int lado, area;
+	
+	printf("Ingresa el lado: \n");
+	scanf("%d", &lado);
+	
+	area=lado*lado;
+	
+	printf("El area del cuadrado es: %d", area);
+	
+	
+	return 0;
+}
