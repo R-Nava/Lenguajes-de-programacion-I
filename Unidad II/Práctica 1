@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main (){
+	
+	int numeros, i, num, par, impar, test;
+	
+	par=0;
+	impar=0;
+	
+	printf ("Ingresa la cantidad de numeros: \n");
+	scanf ("%d",&numeros);
+	
+	for (i=1; i<=numeros; i++){
+		
+		printf ("Ingresa el numero entero: \n");
+		scanf ("%d", &num);
+		
+		test = num % 2;
+		
+		if (test == 0){
+			par++;
+		} else{
+			impar++;
+		}
+		
+	}
+	
+	printf ("La cantidad de pares fueron: %d \n", par);
+	printf ("La cantidad de impares fueron: %d \n", impar);
+	
+	return 0;
+}
