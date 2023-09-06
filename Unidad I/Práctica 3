@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main(){
+	
+	char nombre [30], materia [30];
+	
+	float calificacion1, calificacion2, calificacion3, promedio;
+	
+	printf ("Ingresar nombre: \n");
+	
+	gets (nombre);
+	
+	printf ("Ingresar materia: \n");
+	
+	fflush(stdin);
+	
+	gets (materia);
+	
+	printf ("La calificación deberá de ser en escala de 0 a 10 \n \n");
+	
+	printf ("Ingresa la calificacion del parcial 1: \n");
+	
+	scanf ("%f", &calificacion1 );
+	
+	printf ("Ingresa la calificacion del parcial 2: \n");
+	
+	scanf ("%f", &calificacion2 );
+	
+	printf ("Ingresa la calificacion del parcial 3: \n");
+	
+	scanf ("%f", &calificacion3 );
+	
+	
+	promedio = (((calificacion1 * 30)/10)+((calificacion2 * 30)/10)+((calificacion3 * 40)/10));
+	
+	printf ("El nombre del alumno es: %s \n: ", nombre);
+	printf ("El nombre de la materia es: %s \n: ", materia);
+	printf ("El promedio es: %f \n", promedio);
+	
+	return 0;
+}
