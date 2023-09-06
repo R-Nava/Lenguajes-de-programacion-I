@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main (){
+	
+	char nombre [30], materia [30];
+	
+	printf ("Dame tu nombre: \n");
+	
+	gets(nombre); //solo funciona con cadena
+	
+	prtintf ("el nombre es: %s \n", nombre);
+	
+	printf ("Nombre de la materia: \n");
+	
+	fflusf(stdin);
+	
+	gets (materia);
+	
+	prtintf ("el materia es: %s \n", materia);
+	
+	
+	return 0;
+}
