@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+	
+	int datos[5]={12,8,34,5,27}, suma=0, inc=0;
+
+    suma = suma + datos[inc];
+    inc++;
+    suma = suma + datos[inc];
+    inc++;
+    suma = suma + datos[inc];
+	inc++;
+    suma = suma + datos[inc];
+    inc++;
+    suma = suma + datos[inc];
+
+    printf ("%d", suma);
+
+	return 0;
+}
