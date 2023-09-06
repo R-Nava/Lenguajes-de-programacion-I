@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main (){
+	
+	char nombremat [30], nombrealu [30];
+	int n, i, j, k;
+	float promgral=0, promalu=0, calif;
+	
+	printf ("Nombre de materia: \n");
+	fflush (stdin);
+	gets (nombremat);
+	
+	do{
+		
+		printf ("Cuantos alumnos tiene la materia: \n");
+		scanf ("%d", &n);
+		
+	}while (n<=0);
+	
+	for (i=0;i<=n;i++){
+		
+		printf ("Nombre del alumno: \n");
+		fflush (stdin);
+		gets (nombrealu);
+		
+		//El for puede tener varias variables
+		for (j=0;j<3;j++){
+			
+			printf ("calif del parcial: \n");
+			scanf ("%f", &calif);
+			promalu=promalu+calif;
+			
+		}
+		
+		promalu = promalu / 3 ;
+		printf ("%s tiene un promedio de %f \n", nombrealu, promalu);
+		promgral=promgral+promalu;
+		promalu=0.0;
+		
+		
+	}
+	
+	promgral=promgral/n;
+	printf ("El promedio general es: %f", promgral);
+	
+	return 0;
+}
