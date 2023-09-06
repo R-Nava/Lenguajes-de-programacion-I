@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main(){
+	
+	int edad;
+	
+	printf ("Ingresa tu edad: \n");
+	scanf ("%d", &edad);
+	
+	if (edad<=0){
+		
+		printf ("La entrada es un error");
+		
+	} else {
+		
+		if (edad>=18){
+		
+		printf ("Ya es mayor de edad");
+		
+		} else {
+		
+		printf ("Aún no es mayor de edad");
+		
+		}
+		
+	}
+	
+	return 0;
+}
