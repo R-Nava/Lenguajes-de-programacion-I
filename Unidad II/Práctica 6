@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+int main(){
+	
+	int materias, i;
+	float calif, prom, A, promN;
+	
+	i=1;
+	materias=0;
+	calif=0;
+	prom=0;
+	A=0;
+	promN=0;
+	
+	do{
+		
+		printf ("Ingresa la cantidad de materias: \n");
+		scanf ("%d",&materias);
+		
+	}while (materias<=0);
+	
+	while (materias!= i-1){
+		
+		do{
+		
+			printf ("Ingresa la calificación: %d ", i);
+			scanf ("%d", & calif);
+		
+		}while (calif<0 && calif>10);
+		
+		A=A+calif;
+		
+		i++;
+	}
+	
+	prom=A/materias;
+	
+	promN=prom*10;
+	
+	printf ("\n El promedio es de: %f \n", promN);
+	
+	if (promN<60){
+		printf ("Reprobó");
+	}
+	
+	if (promN>=60 && promN<80){
+		printf ("Regular");
+	}
+	
+	if (promN>=80 && promN<90){
+		printf ("Bien");
+	}
+	
+	if (promN>=90 && promN<100){
+		printf ("Muy bien");
+	}
+	
+	if (promN=100){
+		printf ("Excelente");
+	}
+	
+	if (promN<=0 && promN>100){
+		printf ("Algunos datos fueron incorrectos");
+	}
+	
+	return 0;
+}
