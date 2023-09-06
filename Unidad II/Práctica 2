@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main(){
+	
+	char opc;
+	float ac, lado, b, h, at;
+	
+	printf ("MENU \n");
+	printf ("a. Area del cuadrado \n");
+	printf ("b. Area del triangulo \n");
+	printf ("c. salir \n");
+	
+	printf ("Ingresa una opción: \n");
+	scanf ("%c",&opc);
+	
+	switch (opc){
+		
+		case 'a': case 'A':
+			printf ("Area del cuadrado \n");
+			printf ("Ingresa un lado \n");
+			scanf  ("%f",&lado);
+			ac=lado*lado;
+			printf ("Area = %f \n", ac);
+			break;
+		case 'b': case 'B':
+			printf ("Area del triangulo \n");
+			printf ("Ingresa la base \n");
+			scanf  ("%f",&b);
+			printf ("Ingresa la altura \n");
+			scanf  ("%f",&h);
+			at=(b*h)/2.0; // Como es flotante hay que poner 2.0 porque 2 puede dar problemas
+			printf ("Area = %f \n", at);
+			break;
+		case 'c':case 'C':
+			printf ("Bye Bye dijo el mariobros");
+			break;
+		default:
+			printf ("Opción no valida");
+			break;
+	}
+	
+	return 0;
+}
