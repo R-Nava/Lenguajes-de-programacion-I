@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main (){
+	
+	int tabla, i, r;
+	
+	printf ("Ingresa la tabla de multiplicar: \n");
+	scanf ("%d",&tabla);
+	
+	for (i=1;i<=10;i++){
+		
+		r=tabla*i;
+		printf ("%d * %d = %d \n", tabla, i, r);
+		
+	}
+	
+	
+	return 0;
+}
