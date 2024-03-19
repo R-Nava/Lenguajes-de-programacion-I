@@ -6,7 +6,7 @@ int main (){
 	
 	do{
 		
-		printf ("Ingresa el tamaño: \n");
+		printf ("Ingresa el tamaÃ±o: \n");
 		scanf ("%d", &n);
 		if (n<=0 || n>10){
 			
@@ -16,7 +16,7 @@ int main (){
 		
 	}while(n<=0 || n>10);
 	
-	for (y=0;y>n;y++){
+	for (y=0;y<n;y++){
 		
 		for (x=0;x<n;x++){
 			
@@ -27,7 +27,7 @@ int main (){
 		
 	}
 	
-	for (y=0;y>n;y++){
+	for (y=0;y<n;y++){
 		
 		for (x=0;x<n;x++){
 			
