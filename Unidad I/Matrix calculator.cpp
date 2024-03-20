@@ -19,7 +19,7 @@ int main (){
 				tamano=num;	
 			}
 		}while((num-test) != 0 || num>10 || num<0); //validacion de entero
-		float MA[tamano][tamano], MB[tamano][tamano], MR[tamano][tamano], MR1[tamano][tamano]; //Declaración de matrices
+		float MA[tamano][tamano], MB[tamano][tamano], MR[tamano][tamano], MR1[tamano][tamano]; //DeclaraciÃ³n de matrices
 		for (y=0;y<tamano;y++){
 			for (x=0;x<tamano;x++){
 				MA[y][x]=0;
@@ -50,7 +50,7 @@ int main (){
 			printf ("3.- Suma de matrices \n");
 			printf ("4.- Resta de matrices \n");
 			printf ("5.- Multiplicacion de matrices \n");
-			printf ("6.- Cambiar tamaño \n");
+			printf ("6.- Cambiar tamaÃ±o \n");
 			printf ("7.- Salir \n");
 			printf ("=================================\n");
 			printf ("\n");
