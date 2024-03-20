@@ -20,14 +20,14 @@
 
 - **Práctica 7**: Mejorando aún más el código de los promedios, ahora podemos evaluar el promedio de un número indeterminado de alumnos para un número indeterminado de materias haciendo uso de dos ciclos for anidados y calcular el promedio general de este hipotético grupo de alumnos.
 
-Aplicación de conceptos: En este código se aplican muchos de los conceptos vistos para llevar a cabo muchos pequeños proyectos dentro del código. Estos son:
-- Este pedazo de código permite ingresar un salario y devuelve uno nuevo según la cantidad.
-- La segunda opción muestra la tabla ASCII  utilizando un ciclo para imprimir un símbolo según el número utilizado.
-- La tercera opción identifica números pares, impares y primos.
-- Esta opción acepta una cantidad indeterminada de números para contar cuántos de ellos son positivos, negativos y ceros.
-- La quinta opción es una simple calculadora de temperaturas entre Centígrados y Farenheit.
-- La sexta opción simula una máquina expendedora de una manera MUY simple, simplemente ingresas un costo y el pago en la computadora. Al hacer esto se calcula el cambio tomando en cuenta la denominación de los billetes y monedas existentes en la moneda mexicana.
-- La séptima opción identifica si un año dado es bisiesto o no y, verifica que el número de día y mes correspondan entre sí para que algunos meses no tengan más de 30 días, otros que no tengan más de 31 y otros que no tengan más de 28 o 29 (Febrero).
-- Las últimas dos opciones simplemente con cosas agregadas para facilitar el debut del código.
+  Aplicación de conceptos: En este código se aplican muchos de los conceptos vistos para llevar a cabo muchos pequeños proyectos dentro del código. Estos son:
+  - Este pedazo de código permite ingresar un salario y devuelve uno nuevo según la cantidad.
+  - La segunda opción muestra la tabla ASCII  utilizando un ciclo para imprimir un símbolo según el número utilizado.
+  - La tercera opción identifica números pares, impares y primos.
+  - Esta opción acepta una cantidad indeterminada de números para contar cuántos de ellos son positivos, negativos y ceros.
+  - La quinta opción es una simple calculadora de temperaturas entre Centígrados y Farenheit.
+  - La sexta opción simula una máquina expendedora de una manera MUY simple, simplemente ingresas un costo y el pago en la computadora. Al hacer esto se calcula el cambio tomando en cuenta la denominación de los billetes y monedas existentes en la moneda mexicana.
+  - La séptima opción identifica si un año dado es bisiesto o no y, verifica que el número de día y mes correspondan entre sí para que algunos meses no tengan más de 30 días, otros que no tengan más de 31 y otros que no tengan más de 28 o 29 (Febrero).
+  - Las últimas dos opciones simplemente con cosas agregadas para facilitar el debut del código.
 
 - **Examen 1**: Primer parcial de lenguajes de programación I. Este código tiene tres opciones. La primera toma un numero cualquiera y dice si es o no un numero perfecto. La segunda opción es un ejemplo de como podemos utilizar un switch con un fragmento comentado mostrando como sería utilizando if La tercera opcion permite salir del codigo unicamente si ingresas la contraseña correcta
