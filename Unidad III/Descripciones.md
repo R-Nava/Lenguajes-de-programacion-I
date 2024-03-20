@@ -5,3 +5,4 @@
  - **Código 3**: Este sencillo programa únicamente lee la cantidad de frases o palabras que se le ingresen y devuelve la cantidad de letras A que contenian todas las frases.
  - **Código 4**: El código es solamente una forma sencilla del ordenamiento Burbuja para acomodar una cantidad arbitraria de números (entre 1 y 30)
  - **Código 5**: Este es igual al anterior solo que ordena nombres en lugar de numeros.
+ - **Código 7**: Similar al código 2, este programa nos permite conocer la cantidad de vocales en una cantidad de 1 a 10 frases con la diferencia de que ahora se añadió soporte para vocales mayusculas y minusculas
